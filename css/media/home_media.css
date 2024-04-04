@@ -1,0 +1,334 @@
+@media screen and (max-width: 1650px) {
+  #coaches {
+    .coach__info > div > p:last-child {
+      font-size: clamp(10px, calc(0.625rem + ((1vw - 3px) * 0.4)), 20px);
+      min-height: 0vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  #introduction {
+    .introduction__block {
+      background-image: none;
+      height: auto;
+      text-align: center;
+    }
+
+    .introduction__block > div {
+      top: 13vw;
+      width: 80%;
+    }
+
+    .introduction__block > img {
+      display: inline-block;
+      margin-top: 15vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #coaches {
+    .coaches__information {
+      flex-direction: column;
+      align-items: center;
+      gap: 2vw;
+    }
+
+    .coaches__information > img {
+      padding-top: 0;
+    }
+
+    .coaches__container > div > img {
+      display: none;
+    }
+
+    .coaches__information > section > nav {
+      margin: 0 auto;
+    }
+
+    .coach__info {
+      padding: 0;
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    .role__section {
+      width: 60vw;
+      margin: 2vw 0;
+    }
+  }
+
+  #convertKit {
+    .ConvertKit__start {
+      position: relative;
+
+      padding-top: 90vw;
+      margin-top: 70vw;
+    }
+
+    .artist__container {
+      position: absolute;
+
+      top: -150vw;
+      margin-top: 75vw;
+      margin-left: 13.5vw;
+
+      flex-direction: column;
+      gap: 2vw;
+    }
+
+    .artist__container > div {
+      width: 75vw;
+      height: 50vw;
+      background-size: cover;
+
+      justify-content: center;
+    }
+
+    .artist__container > div > div > p {
+      width: 38%;
+      padding-top: 7vw;
+    }
+
+    .creator__story {
+      background-image: url("https://media.convertkit.com/images/pages/home/jpg/poster/stories-poster-mobile@2x.jpg?fit=max&q=50&fm=webp&w=1404&h=940");
+    }
+
+    .creator__session {
+      background-image: url("https://media.convertkit.com/images/pages/home/jpg/poster/sessions-poster-mobile@2x.jpg?fit=max&q=50&fm=webp&w=1404&h=940");
+    }
+    .creator {
+      background-image: url("https://media.convertkit.com/images/pages/home/jpg/poster/films-poster-mobile@2x.jpg?fit=max&q=50&fm=webp&w=1404&h=940");
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #tradecraft {
+    .blog__section {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .blog__section > div {
+      width: 55%;
+      height: 30vw;
+    }
+
+    .blog__section > div > div:first-child {
+      height: 65%;
+    }
+
+    .blog__section > div:hover > div:first-child {
+      height: 40%;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #creators {
+    .creators__slide > div > p:last-child {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #introduction {
+    .introduction__block > div {
+      top: 15vw;
+    }
+  }
+
+  #nav {
+    .login {
+      display: none;
+    }
+
+    .convertkit-logo {
+      height: 4vw;
+    }
+
+    .nav-bar > li:last-child > ul > li:last-child > a {
+      font-size: clamp(14px, calc(0.875rem + ((1vw - 3px) * 0.32)), 22px);
+      min-height: 0vw;
+    }
+
+    .nav-bar {
+      height: 7vw;
+    }
+  }
+
+  #marketing {
+    .marketing__container > section > img {
+      display: none;
+    }
+
+    .marketing__hub {
+      width: 80%;
+    }
+
+    .marketing__container > section > div > div > img {
+      display: inline-block;
+      width: auto;
+      margin: 0 auto;
+    }
+  }
+
+  #tradecraft {
+    .blog__section > div > div:first-child {
+      height: 50%;
+    }
+
+    .blog__section > div:hover > div:first-child {
+      height: 40%;
+    }
+  }
+
+  #footer {
+    .convertkit-logo {
+      height: 4vw;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #convertKit {
+    .earning__start {
+      position: relative;
+    }
+
+    .earning__start > img {
+      position: absolute;
+      left: 70%;
+      opacity: 0.6;
+    }
+
+    .earning__start > div {
+      width: 75%;
+      z-index: 5;
+    }
+  }
+}
+
+@media screen and (max-width: 605px) {
+  #tradecraft {
+    .blog__section > div:hover > div:first-child {
+      height: 50%;
+    }
+
+    .blog__section > div:hover > div:last-child {
+      height: 60%;
+    }
+
+    .blog__section > div:hover > div > a {
+      display: none;
+      animation: none;
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #nav {
+    .nav-bar > li:last-child > ul > li:not(:last-child) > a {
+      padding: 1vw 1.5vw;
+    }
+  }
+
+  #convertKit {
+    .artist__container > div > div {
+      margin-top: 0;
+    }
+
+    .artist__container > div > div > p {
+      display: block;
+      position: static;
+      padding: 2vw 0;
+      text-align: justify;
+    }
+
+    .creator__session,
+    .creator__session > div {
+      align-items: flex-start !important;
+    }
+
+    .creator__session > div,
+    .creator__session > a {
+      margin-left: 10vw;
+    }
+
+    *:not(.earning__start) > div > p {
+      width: 30vw !important;
+      animation: none !important;
+    }
+
+    .creator__session > div > *:first-child {
+      margin-left: 7vw;
+    }
+
+    .creator__story,
+    .creator__story > div,
+    .creator,
+    .creator > div {
+      align-items: end !important;
+    }
+
+    .creator > div,
+    .creator > a,
+    .creator__story > div,
+    .creator__story > a {
+      margin-right: 10vw;
+    }
+
+    .creator > a {
+      margin-right: 11vw;
+    }
+
+    .creator > div > h3,
+    .creator__story > div > h2 {
+      margin-right: 7vw;
+    }
+
+    .creator__story > div > h3 {
+      margin-right: 9vw;
+    }
+
+    .creator > div > h1 {
+      margin-right: 5vw;
+    }
+
+    .creator__story > a {
+      margin-right: 13vw;
+    }
+
+    *:hover > div {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+
+    *:hover > div > p {
+      animation: none !important;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #tradecraft {
+    .blog__section > div > div:first-child {
+      height: 30%;
+    }
+
+    .blog__section > div:hover > div:first-child {
+      height: 30%;
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #tradecraft {
+    .blog__section > div > div > p {
+      display: none;
+    }
+  }
+}

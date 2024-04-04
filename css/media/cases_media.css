@@ -1,0 +1,480 @@
+@media screen and (min-width: 2401px) {
+  #nav {
+    .nav-bar > li:first-child {
+      width: 74%;
+    }
+  }
+}
+
+@media screen and (max-width: 2400px) {
+  #nav {
+    .nav-bar > li:first-child {
+      width: 70%;
+    }
+  }
+}
+
+@media screen and (max-width: 1820px) {
+  #nav {
+    .nav-bar > li:first-child > ul > li:first-child {
+      width: 14vw;
+    }
+
+    .nav-bar > li:first-child {
+      width: 68%;
+    }
+  }
+}
+
+@media (min-width: 300px) and (max-width: 1650px) {
+  #text {
+    h6,
+    .introduction__section > div > div > a {
+      font-size: clamp(8px, calc(0.5rem + ((1vw - 3px) * 0.48)), 20px);
+      min-height: 0vw;
+    }
+  }
+
+  #nav {
+    .nav-bar > li:first-child {
+      width: 68%;
+    }
+
+    .nav-bar > li:first-child > ul > li:first-child {
+      width: 11vw;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #introduction {
+    .introduction__section > div {
+      width: 75%;
+    }
+
+    .introduction__section > img {
+      height: 50vw;
+    }
+  }
+
+  #nav {
+    .nav-bar > li {
+      margin-top: 0.5vw;
+    }
+    .nav-bar > li:first-child > ul > li:first-child {
+      width: max-content;
+    }
+
+    .nav-bar > li:first-child {
+      width: auto;
+    }
+
+    .nav-bar > li:last-child {
+      position: relative;
+      left: 42vw;
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #email-list {
+    section > div {
+      width: 85%;
+    }
+  }
+
+  #email,
+  #email-growth {
+    .email__container > div > div:last-child,
+    .automated_email > div > div:last-child,
+    .growth > div > div:last-child,
+    .organizer > div > div:last-child {
+      display: block;
+      width: 80vw;
+      margin-top: 9vw;
+      margin-left: -32vw;
+    }
+
+    .email__container > div > div:first-child {
+      margin-top: 5vw;
+    }
+
+    .growth > div > div:last-child {
+      margin-top: 10vw;
+      margin-left: -43vw;
+    }
+
+    .organizer > div > div:last-child {
+      margin-left: 0;
+      margin-top: 12vw;
+    }
+
+    .automated_email > div > div:last-child {
+      margin-top: 10vw;
+    }
+
+    .email__container > div > div:last-child > div,
+    .automated_email > div > div:last-child > div,
+    .organizer > div > div:last-child > div,
+    .growth > div > div:last-child > div {
+      display: inline-block;
+      width: 47%;
+
+      vertical-align: top;
+    }
+
+    .email__container > div > div:last-child > div:last-child,
+    .automated_email > div > div:last-child > div:last-child,
+    .organizer > div > div:last-child > div:last-child,
+    .growth > div > div:last-child > div:last-child {
+      margin-left: 3vw;
+      padding: 0;
+    }
+  }
+
+  #marketing {
+    .practice > img:first-child {
+      display: inline-block;
+      left: 35%;
+    }
+
+    .practice > img:last-child {
+      display: none;
+    }
+
+    .practice > div {
+      margin-top: 20vw;
+      width: 90%;
+    }
+
+    .data > div {
+      width: 85%;
+    }
+
+    .data > img {
+      height: 40vw;
+      right: 8vw;
+    }
+  }
+
+  #test {
+    .test {
+      padding-top: 25vw;
+    }
+
+    .author > h3 {
+      width: 85%;
+    }
+
+    .relationships {
+      width: 80%;
+      left: 7vw;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #nav {
+    .nav-bar > li:last-child {
+      left: 39vw;
+    }
+
+    .nav-bar > li {
+      margin-top: 0.3vw;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #nav {
+    .dropdown {
+      left: -13vw;
+      top: 0.5vw;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .secret {
+    display: inline-block;
+    height: 40vw;
+    margin: 2vw 0;
+  }
+
+  #nav {
+    .nav-bar > li:last-child {
+      left: 35vw;
+    }
+
+    .nav-bar > li {
+      margin: 0.8vw;
+    }
+
+    .nav-bar {
+      height: 5vw;
+    }
+  }
+
+  #email,
+  #email-growth {
+    .email__container > img,
+    .growth > img,
+    .organizer > img,
+    .automated_email > img {
+      display: none;
+    }
+
+    .email__container > div,
+    .growth > div,
+    .organizer > div,
+    .automated_email > div {
+      width: 85%;
+      text-align: center;
+      margin: 0;
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .email__container > div > *,
+    .growth > div > *,
+    .organizer > div > *,
+    .automated_email > div > * {
+      text-align: left;
+    }
+
+    .email__container > div > div:last-child,
+    .automated_email > div > div:last-child,
+    .growth > div > div:last-child,
+    .organizer > div > div:last-child {
+      margin: 0 auto;
+    }
+
+    .founder > div {
+      display: block;
+      width: 85%;
+      margin: 0 auto;
+      padding-top: 5vw;
+    }
+
+    .founder > iframe {
+      width: 70%;
+    }
+
+    .founder > div > h2 {
+      font-size: clamp(15px, calc(0.9375rem + ((1vw - 3px) * 0.6)), 30px);
+      min-height: 0vw;
+    }
+
+    .spam__container > section > div {
+      display: block;
+    }
+
+    .spam__container > section > div:first-child {
+      margin: 0 auto;
+      width: 80%;
+      padding-bottom: 3vw;
+    }
+
+    .spam__container > section > div:last-child {
+      text-align: center;
+    }
+
+    .spam__container > section > div:last-child > div {
+      width: 30%;
+      height: max-content;
+    }
+
+    .spam__container > div > img:first-of-type {
+      display: none;
+    }
+
+    .spam__container > div {
+      padding-bottom: 40vw;
+    }
+
+    .spam__container > div > img:last-of-type {
+      display: inline-block;
+      height: 80vw;
+      right: 15vw;
+    }
+
+    .founder {
+      padding-top: 55vw;
+    }
+  }
+
+  #test {
+    .test > div {
+      display: block;
+      width: 70%;
+      margin: 0 auto;
+    }
+
+    .test > div > img {
+      height: 10vw;
+    }
+  }
+
+  #marketing {
+    .data > div {
+      padding-bottom: 35vw;
+    }
+
+    .data > img {
+      top: 25vw;
+    }
+  }
+}
+
+@media screen and (max-width: 730px) {
+  #footer {
+    .footer > li:last-child {
+      margin-top: 3vw;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #nav {
+    .nav-bar > li:last-child {
+      left: 32vw;
+    }
+
+    .nav-bar > li {
+      margin-top: 0.5vw;
+    }
+  }
+}
+
+@media screen and (max-width: 630px) {
+  #nav {
+    .dropdown {
+      left: -15vw;
+      top: 1vw;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #email-list {
+    section {
+      padding-top: 30vw;
+    }
+  }
+
+  #nav {
+    .nav-bar > li:last-child {
+      left: 27.5vw;
+    }
+
+    .nav-bar > li {
+      margin-top: 0.3vw;
+    }
+  }
+
+  #introduction {
+    .introduction__section {
+      padding-top: 15vw;
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #footer {
+    .footer > li:nth-child(3) {
+      margin-top: 3vw;
+    }
+  }
+}
+
+@media screen and (max-width: 530px) {
+  #nav {
+    .nav-bar > li:last-child {
+      left: 25vw;
+    }
+
+    .nav-bar > li {
+      margin-top: 0.2vw;
+    }
+
+    .dropdown {
+      top: 1vw;
+    }
+  }
+}
+
+@media screen and (max-width: 470px) {
+  #nav {
+    .nav-bar > li:last-child {
+      left: 20vw;
+    }
+
+    .nav-bar > li {
+      margin-top: 1vw;
+    }
+
+    .nav-bar {
+      height: 7vw;
+    }
+
+    .nav-bar > li:first-child {
+      width: 20%;
+    }
+
+    .dropdown {
+      top: 2vw;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #email-list {
+    section {
+      padding-top: 35vw;
+    }
+  }
+
+  #marketing {
+    .data > img {
+      top: 30vw;
+    }
+  }
+
+  #nav {
+    .nav-bar > li {
+      margin-top: 0.5vw;
+    }
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #nav {
+    .nav-bar > li:last-child {
+      left: 28vw;
+    }
+
+    .login {
+      display: none;
+    }
+  }
+
+  #footer {
+    .footer > li:nth-child(2) {
+      margin-top: 3vw;
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #email-list {
+    section {
+      padding-top: 40vw;
+    }
+  }
+
+  #nav {
+    .nav-bar > li {
+      margin-top: 0.2vw;
+    }
+  }
+}
